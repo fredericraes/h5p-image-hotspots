@@ -1,12 +1,12 @@
 {
   "semantics":[
     {
-      "label":"Background image",
-      "description":"Image shown on background."
+      "label":"Achtergrondafbeelding",
+      "description":"Afbeelding op de achtergrond."
     },
     {
-      "label":"Hotspot color",
-      "description":"The color of the hotspots",
+      "label":"Hotspot kleur",
+      "description":"Kleur van de hotspots",
       "default":"#981d99",
       "spectrum":{
         
@@ -19,8 +19,8 @@
         "label":"Hotspot",
         "fields":[
           {
-            "label":"Hotspot position",
-            "description":"Click on the thumbnail image to place the hotspot",
+            "label":"Hotspot positie",
+            "description":"Klik op de kleine afbeelding om de hotspot te plaatsen",
             "fields":[
               {
                 
@@ -31,15 +31,15 @@
             ]
           },
           {
-            "label":"Cover entire background image",
-            "description":"When the user clicks the hotspot the popup will cover the entire background image"
+            "label":"Bedek volledige achtergrondafbeelding",
+            "description":"Wanneer de gebruiker de hotspot aanklikt, bedekt de popup de volledige achtergrondafbeelding"
           },
           {
             "label":"Header",
-            "description":"Optional header for the popup"
+            "description":"Optionele header voor het popup-venster"
           },
           {
-            "label":"Popup content",
+            "label":"Popup inhoud",
             "field":{
               "label":"Content Item"
             }
